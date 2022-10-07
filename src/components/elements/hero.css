@@ -1,0 +1,27 @@
+.hero-h{
+    font-size: 70px;
+}
+.hero-sh{
+    font-size: 27px;
+}
+.hero-sect1{
+    margin-bottom: 140px;
+    margin-top: 140px;
+    text-align: center;
+}
+.h-btn{
+    background-color: blueviolet;
+    color: white;
+    padding: 17px 40px 17px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.hero-sect2{
+    background-color:rgba(109,116,124,0.5);
+    border-radius: 12px;
+    padding-top: 67px;
+    padding-bottom: 34px;
+    text-align: center;
+    margin-top: 50px;
+}
