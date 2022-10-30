@@ -5,7 +5,7 @@ import { FaTwitterSquare, FaTelegram } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-      <div className="container-fluid hero-pic">
+      <div className="container-fluid " id="hero-pic">
         <div className="container-fuid mx-4">
           <div className="row d-flex">
 

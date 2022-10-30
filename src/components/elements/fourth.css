@@ -14,9 +14,17 @@
     border-radius: 20px;
 }
 .fourt-img{
-    height: 297px;
-    width: 309px;
+    height: auto;
+    width: 100%;
 }
 .first-check{
     margin-right: 100px;
+}
+.f-btn{
+    background-color: #FE5E00FF;
+    color: white;
+    display: block;
+    padding: 17px 40px 17px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

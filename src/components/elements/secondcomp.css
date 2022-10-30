@@ -1,3 +1,10 @@
 .card-h{
     font-size: 24px;
 }
+.s-card{
+    background-color: transparent;
+    padding: 10px;
+}
+.s-card:hover{
+    background-color: rgba(242, 112, 34 ,0.2);
+}
