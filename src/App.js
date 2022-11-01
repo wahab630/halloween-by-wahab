@@ -5,6 +5,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Base from "./components/layouts/Base";
 import Home from "./pages/Home";
+import GoToTop from "./components/elements/GoToTop";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route index path="/" element={<Home />}></Route>
           </Routes>
+          <GoToTop/>
         </Base>
       </Router>
     </>

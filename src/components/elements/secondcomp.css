@@ -8,3 +8,9 @@
 .s-card:hover{
     background-color: rgba(242, 112, 34 ,0.2);
 }
+.tokenomics-linebefore{
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+}

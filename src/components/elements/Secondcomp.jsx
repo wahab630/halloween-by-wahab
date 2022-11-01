@@ -10,11 +10,12 @@ import "./secondcomp.css";
 const Secondcomp = () => {
   return (
     <>
-      <div className="container-fluid second-bg">
+      <div className="container-fluid second-bg" id="tokenomics">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
-              <p className="fw-bold mb-4"> WHAT IS OUR TOKENOMICS</p>
+              <span className="tokenomics-linebefore"></span>
+              <span className="fw-bold mb-4 "> WHAT IS OUR TOKENOMICS</span>
               <p className=" mb-5">
                 At Halloween Floki, we are designing a project based on
                 definitive market rules and fundamental economic principles.
@@ -23,7 +24,7 @@ const Secondcomp = () => {
               </p>
               <p className=" mb-5">Total Sudopply: 1 000 000 000 000 FLOH</p>
               <p className=" mb-5">8% Buy and Sell Tax:</p>
-              <ul>
+              <ul className="mb-5">
                 <li className="mb-1">
                   4% holders rewards: Dividend tax on all transactions that will
                   be distributed every 24 hours to holders in BUSD.
@@ -39,7 +40,8 @@ const Secondcomp = () => {
                   project to its maximum potential.
                 </li>
               </ul>
-              <p className="fw-bold mt-4"> WHAT ARE OUR FEATURES</p>
+              <span className="tokenomics-linebefore "></span>
+              <span className="fw-bold mt-4"> WHAT ARE OUR FEATURES</span>
             </div>
           </div>
           
@@ -49,7 +51,7 @@ const Secondcomp = () => {
 
           <div className="row">
             <div className="col-md-3 col-lg-3">
-              <div class="card s-card">
+              <div class="card s-card border-0">
                 <div class="card-body">
                 <FaDollarSign className="icon" size={90} />
                   <h3 class="card-title mt-4 mb-3">$BUSD Rewards </h3>
@@ -66,7 +68,7 @@ const Secondcomp = () => {
             </div>
 
             <div className="col-md-3 col-lg-3">
-              <div class="card s-card">
+              <div class="card s-card border-0">
                 <div class="card-body">
                 <FaBullhorn className="icon" size={90} />
                   <h3 class="card-title mt-4 mb-3">Marketing </h3>
@@ -83,7 +85,7 @@ const Secondcomp = () => {
             </div>
 
             <div className="col-md-3 col-lg-3">
-              <div class="card s-card">
+              <div class="card s-card border-0">
                 <div class="card-body">
                 <FaWater className="icon" size={90} />
                   <h3 class="card-title mt-4 mb-3">Liquidity Pool</h3>
@@ -101,7 +103,7 @@ const Secondcomp = () => {
             </div>
 
             <div className="col-md-3 col-lg-3">
-              <div class="card s-card">
+              <div class="card s-card border-0">
                 <div class="card-body">
                 <FaUserShield className="icon" size={90} />
                   <h3 class="card-title mt-4 mb-3">Anti-Whale Mechanism</h3>

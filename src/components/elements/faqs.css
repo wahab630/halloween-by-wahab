@@ -1,22 +1,39 @@
 .faq-img {
   height: auto;
-  width: 100%;
- 
+  max-width: 80%; 
+  display: block;
+  margin-left: auto;
 }
+
 .twitter-i {
   color: #1da1f2ff;
 }
 .telegram-i{
-    color: #F27022FF
-    ;
+    color: #F27022FF    ;
 }
 .setfaq{
   margin-top: 150px;
 }
 .faq-i{
-    margin-top: 50px;
-    
+    margin-top: 50px;    
+}
+@media only screen and (max-width: 600px){
+	.setfaq{
+    margin-top: 20px;
+  }
+  .faq-i{
+    margin-top: 20px;    
+}
+.faq-img-box{
+  margin-top: 20px;
+}
 }
 .faq-heading{
   font-size: 40px;
+}
+.faq-beforeline{
+  display: inline-block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
 }

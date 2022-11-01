@@ -6,3 +6,12 @@
 .third-top{
     font-size: 40px;
 }
+
+.roadmap{
+    background-image: url("../../Media/roadmapbg.png");
+    background-repeat: no-repeat;
+    
+}
+.roadmap-list-square{
+    list-style-type: square;
+}

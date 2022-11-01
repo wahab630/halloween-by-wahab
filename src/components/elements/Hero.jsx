@@ -19,21 +19,24 @@ const Hero = () => {
                 <h2 className="hero-sh fw-bold">$FLOH Live Now!</h2>
                 <button
                   type="button"
-                  class="btn h-btn btn-lg fw-bold rounded-pill"
+                  className="btn h-btn btn-lg fw-bold rounded-pill"
                 >
                   Buy
                 </button>
                 <br />
                 <span>
-                  {" "}
-                  <FaTwitterSquare size={50} color="lightblue" />{" "}
+              
+                  <FaTwitterSquare size={50} color="#1DA1F2FF" />{" "}
                 </span>{" "}
                 <span>
-                  <FaTelegram color="blueviolet" size={50} />{" "}
+                  <FaTelegram color=" #745F98 " size={50} />{" "}
                 </span>
+                <div>
                 <p className="fw-bold mt-3">
-                  Contract : 0x2c0e76dade015bc390a13c1b80cc1bafd9edd326
+                  Contract : 0x2c0e76dade015bc390a1  3c1b80cc <br />1bafd9edd326
                 </p>
+                </div>
+              
               </div>
             </div>
           </div>

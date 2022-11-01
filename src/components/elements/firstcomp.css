@@ -1,23 +1,42 @@
-.first-h{
-    font-size: 40px;
-    margin-top: 36px;
+.first-h {
+  font-size: 40px;
+  margin-top: 36px;
 }
-.first-comp{
-    padding: 100px 50px;
+.first-comp {
+  padding: 100px 50px;
 }
-.first-p{
-    margin-top: 32px;
-    margin-bottom: 32px;
+.first-p {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
-.first-p2{
-    margin-bottom: 32px;
+.first-p2 {
+  margin-bottom: 32px;
 }
-.firstimg{
-    width: 75%;
-    margin-left: 30px;
-    margin-top: 30px;
-    height: auto;
+.firstimg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
-.first-left{
-    padding-right: 150px;
+.first-left {
+  padding-right: 150px;
+}
+@media only screen and (max-width: 600px){
+	.first-left {
+        padding-right: 5px;
+        
+      }
+      .first-comp {
+        padding: 50px 25px;
+      }
+}
+.first-linebefore {
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  background-color: white;
+}
+.telegram-icon {
+  color: white;
+background-color: #745f98ff;
 }

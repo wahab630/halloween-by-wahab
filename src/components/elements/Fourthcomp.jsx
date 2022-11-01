@@ -5,13 +5,17 @@ import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 const Fourthcomp = () => {
   return (
     <>
-      <div className="container-fluid fourth-bg p-5">
+      <div className=" fourth-bg p-4" id="documents">
         <div className=" fourth-uper  ">
           <div className="container">
             <div className="row">
               <div className="col-md-8">
-                <p className="fw-bold"> Whitepaper</p>
-                <h2 className="fourth-h fw-bold mt-2 mb-5">
+                <div>
+                  <span className="fourth-linebefore"></span>
+                <span className="fw-bold"> Whitepaper</span>
+                </div>
+                
+                <h2 className="fourth-h fw-bold mt-4 mb-5">
                   Read Our Documents
                 </h2>
                 <div className="d-flex flex-row flex-wrap">
@@ -43,7 +47,7 @@ const Fourthcomp = () => {
                 </span>
                 </div>
                 </div>
-                <div class="btn-group">
+                <div className="btn-group">
                   <button
                     type="button"
                     className="btn f-btn rounded-pill dropdown-toggle"
@@ -52,25 +56,25 @@ const Fourthcomp = () => {
                   >
                    Download
                   </button>
-                  <ul class="dropdown-menu">
+                  <ul className="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Action
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Another action
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Something else here
                       </a>
                     </li>
                    
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Separated link
                       </a>
                     </li>

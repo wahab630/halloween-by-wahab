@@ -1,30 +1,59 @@
-.checked{
-   
-    color: #FE5E00FF;
+.checked {
+  color: #fe5e00ff;
 }
-.fourth-h{
-    font-size: 40px;
+.fourth-h {
+  font-size: 40px;
 }
-.fourth-bg{
-    background-color: #745F98FF;
+@media only screen and (max-width: 600px) {
+  .fourth-uper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  } 
 }
-.fourth-uper{
-   padding: 100px 100px;
-    background-color: black;
-    border-radius: 20px;
+.fourth-bg {
+  background-color: #745f98ff;
 }
-.fourt-img{
-    height: auto;
-    width: 100%;
+.dropdown-menu{
+    background-color:#fe5e00ff;
+  
 }
-.first-check{
-    margin-right: 100px;
+.fourth-uper {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: black;
+  border-radius: 20px;
 }
-.f-btn{
-    background-color: #FE5E00FF;
+.fourth-linebefore {
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  background-color: white;
+}
+.fourt-img {
+  height: auto;
+  max-width: 100%;
+}
+
+.first-check {
+  margin-right: 100px;
+}
+.dropdown-item{
+    background-color: #fe5e00ff;
     color: white;
-    display: block;
-    padding: 17px 40px 17px 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+}
+.dropdown-item:hover{
+    background-color: #fe5e00ff;
+    color: white;
+}
+.f-btn {
+  background-color: #fe5e00ff;
+  color: white;
+  display: block;
+  padding: 17px 40px 17px 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.f-btn:hover{
+    background-color: #fe5e00ff;
 }
