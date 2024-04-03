@@ -4,12 +4,6 @@
 .fourth-h {
   font-size: 40px;
 }
-@media only screen and (max-width: 600px) {
-  .fourth-uper {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  } 
-}
 .fourth-bg {
   background-color: #745f98ff;
 }
@@ -18,8 +12,7 @@
   
 }
 .fourth-uper {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding: 90px 60px;
   background-color: black;
   border-radius: 20px;
 }
@@ -55,4 +48,9 @@
 }
 .f-btn:hover{
     background-color: #fe5e00ff;
+}
+@media only screen and (max-width: 600px) {  
+  .fourth-uper {
+    padding: 50px 25px;    
+  }
 }

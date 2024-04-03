@@ -33,7 +33,7 @@ const GoToTop = () => {
       <div className="gototop">
         {isVisible && (
           <div className="bottom-btn" onClick={topbtn}>
-            <FaArrowUp className="" />
+            <FaArrowUp  />
           </div>
         )}
       </div>

@@ -12,40 +12,40 @@ const Fourthcomp = () => {
               <div className="col-md-8">
                 <div>
                   <span className="fourth-linebefore"></span>
-                <span className="fw-bold"> Whitepaper</span>
+                  <span className="fw-bold"> Whitepaper</span>
                 </div>
-                
+
                 <h2 className="fourth-h fw-bold mt-4 mb-5">
                   Read Our Documents
                 </h2>
                 <div className="d-flex flex-row flex-wrap">
                   <div>
-                <span className="first-check fw-bold">
-                  <CheckCircleRoundedIcon
-                    className="checked me-2"
-                    sx={{ fontSize: 50 }}
-                  />
-                  <span>KYC</span>
-                </span>
-                </div>
-                <div>
-                <span className="first-check fw-bold">
-                  <CheckCircleRoundedIcon
-                    className="checked me-2"
-                    sx={{ fontSize: 50 }}
-                  />
-                  <span>Audit</span>
-                </span>
-                </div>
-                <div>
-                <span>
-                  <CheckCircleRoundedIcon
-                    className="checked me-2 "
-                    sx={{ fontSize: 50 }}
-                  />
-                  <span className="fw-bold">Whitepaper</span>
-                </span>
-                </div>
+                    <span className="first-check fw-bold">
+                      <CheckCircleRoundedIcon
+                        className="checked me-2"
+                        sx={{ fontSize: 50 }}
+                      />
+                      <span>KYC</span>
+                    </span>
+                  </div>
+                  <div>
+                    <span className="first-check fw-bold">
+                      <CheckCircleRoundedIcon
+                        className="checked me-2"
+                        sx={{ fontSize: 50 }}
+                      />
+                      <span>Audit</span>
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <CheckCircleRoundedIcon
+                        className="checked me-2 "
+                        sx={{ fontSize: 50 }}
+                      />
+                      <span className="fw-bold">Whitepaper</span>
+                    </span>
+                  </div>
                 </div>
                 <div className="btn-group">
                   <button
@@ -54,7 +54,7 @@ const Fourthcomp = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                   Download
+                    Download
                   </button>
                   <ul className="dropdown-menu">
                     <li>
@@ -72,7 +72,7 @@ const Fourthcomp = () => {
                         Something else here
                       </a>
                     </li>
-                   
+
                     <li>
                       <a className="dropdown-item" href="no">
                         Separated link
@@ -80,7 +80,6 @@ const Fourthcomp = () => {
                     </li>
                   </ul>
                 </div>
-
               </div>
               <div className="col-md-4">
                 <div>
